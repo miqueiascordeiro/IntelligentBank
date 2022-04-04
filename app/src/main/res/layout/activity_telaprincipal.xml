@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.miqueiascordeiro.intelligentbank.telaprincipal">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tUsuarioTela2"
+            />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:id="@+id/bDeposito"
+                android:background="@drawable/deposito"
+                android:layout_below="@id/tUsuarioTela2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="false"
+            />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Depósito"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="-30dp"
+                android:layout_alignBottom="@+id/bDeposito"/>
+
+        <Button
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:id="@+id/bSaque"
+                android:layout_below="@+id/tUsuarioTela2"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/saque"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentEnd="true"
+            />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Saque"
+                android:textStyle="bold"
+                android:layout_marginBottom="-30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_alignBottom="@+id/bSaque" />
+
+        <Button
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:id="@+id/bRelatorio"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/bSaque"
+                android:background="@drawable/relatorio"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+            />
+
+     <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Relatório"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="-40dp"
+            android:layout_alignBottom="@+id/bRelatorio" />
+
+        <Button
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:id="@+id/bSair"
+                android:layout_below="@+id/bSaque"
+                android:background="@drawable/sair"
+                android:layout_marginTop="60dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentBottom="false"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sair"
+            android:textStyle="bold"
+            android:layout_marginTop="130dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_alignBottom="@+id/bSair" />
+    </RelativeLayout>
+</ScrollView>

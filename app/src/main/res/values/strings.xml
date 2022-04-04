@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Intelligent Bank</string>
+    <string name="Usuario">Usuario:</string>
+    <string name="Senha">Senha:</string>
+    <string name="Ou">Ou</string>
+    <string name="Entrar">Entrar no Intelligent Bank</string>
+    <string name="Cadastrar">Cadastre-se no Intelligent Bank</string>
+    <string name="Data">Data</string>
+    <string name="Descricao">Descrição:</string>
+    <string name="Valor">Valor:</string>
+    <string name="Depositar">Depositar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Nome">Nome:</string>
+    <string name="Sacar">Sacar</string>
+    <string name="Email">Email:</string>
+    <string name="Sobrenome">Sobrenome:</string>
+    <string name="Salvar">Salvar</string>
+    <string name="Confirmarsenha">Confirme senha:</string>
+    <string name="Desenvolvedor">Copyright © 2017 MiquéiasC.</string>
+
+
+</resources>

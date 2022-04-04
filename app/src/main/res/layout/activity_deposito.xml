@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.miqueiascordeiro.intelligentbank.deposito">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Data"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/txtData"
+    />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tdata"
+        android:text="Data"
+        android:layout_below="@id/txtData"
+    />
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Hora"
+         android:id="@+id/thora"
+         android:layout_below="@id/txtData"
+         android:layout_toRightOf="@id/tdata"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Valor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tValor"
+        android:layout_below="@id/tdata"/>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/tValor"
+         android:id="@+id/eValor"
+     />
+     <TextView
+         android:id="@+id/tDescricao"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_width="match_parent"
+         android:textSize="20dp"
+         android:textStyle="bold"
+         android:text="@string/Descricao"
+         android:layout_below="@+id/eValor"
+     />
+     <EditText
+         android:id="@+id/eDescricao"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_below="@+id/tDescricao"
+     />
+
+     <Button
+         android:id="@+id/bDepositar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/Depositar"
+         android:layout_below="@id/eDescricao"
+         android:onClick="CadastroDeposito"/>
+
+     <Button
+         android:id="@+id/bCancelar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignEnd="@id/eDescricao"
+         android:layout_alignRight="@id/eDescricao"
+         android:text="@string/Cancelar"
+         android:layout_below="@id/eDescricao"/>
+ </RelativeLayout>
+</ScrollView>
